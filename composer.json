@@ -10,8 +10,14 @@
         }
     ],
     "require": {
-        "flancer32/mage2_ext_base": "*"
+        "flancer32/mage2_ext_base": "dev-master"
     },
+    "repositories": [
+        {
+            "type": "vcs",
+            "url": "https://github.com/benwhipp/mage2_ext_base"
+        }
+    ],
     "autoload": {
         "files": [
             "registration.php"
